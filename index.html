@@ -1,0 +1,49 @@
+<title>Assignment 24</title>
+</head>
+<body>
+    <h1>JavaScript is a love</h1>
+   
+    <script>
+        //circle1 Argument and Return
+        console.log('Type 1: Argument and Return');
+        function calculateArea1(radius)
+        {
+            const area  = 3.14 * radius * radius;
+            return area;
+        }
+        const radius = calculateArea1(2);
+        console.log(`Area of Circle 1 : ${radius}`);
+        
+        //circle2 Argument but no Return
+        console.log('Type 2: Argument but no Return');
+        function calculateArea2(radius2)
+        {
+            const area  = 3.14 * radius2 * radius2;
+            console.log(`Area of Circle 2 : ${radius2}`);
+        }
+        const radius2 = calculateArea2(3);
+        
+        //circle3 No Argument but Return
+        console.log('Type 3: No Argument but Return');
+        const radius3 = 4;
+        function calculateArea3()
+        {
+            const area3  = 3.14 * radius3 * radius3;
+            return area3;
+        }
+        const Area3 = calculateArea3();
+        console.log(`Area of Circle 3 : ${Area3}`);
+        
+        //circle4 No Argument but No Return
+        console.log('Type 4: No Argument but No Return');
+        const radius4 = 6;
+        function calculateArea4()
+        {
+            const area4  = 3.14 * radius4 * radius4;
+            console.log(`Area of Circle 4 : ${area4}`);
+        }
+        calculateArea4();
+        
+    </script>
+</body>
+</html>
